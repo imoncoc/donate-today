@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+/* Common Class */
+.container{
+    margin-top: 100px;
+}
+.btn-primary {
+    background-color: #FF5959;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 12px 24px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.section-title{
+    font-size: 36px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #707070;
+}
+.section-div{
+    margin: auto;
+        width: 50%;
+}
+.section-center{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Header */
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.60)), url('../images/larm-rmah-AEaTUnvneik-unsplash.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+}
+.header-content{
+    padding: 250px;
+    color: #fff;
+}
+.header-title{
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+.header-description{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* .donate{
+} */
+.donate-money{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.donate-money-item{
+    margin-left: 10px;
+}
+.donate-button{
+    background-color: #FAFAFA;
+    padding:  36px 24px;
+    border: 2px solid #FAFAFA;
+}
+.donate-button-red{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+.donate-button:hover{
+    border-color: #FF5959;
+    cursor: pointer;
+    background-color: #FFEEEE;
+}
+.donate-money-input{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donate-money-input-text{
+    margin-bottom: 10px;
+}
+.donate-money-input-input{
+    padding: 10px;
+    border: none;
+}
+.donate-money-input-input:focus {
+    outline: none;
+}
+
+/* Donate Plan */
+.donate-plan{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.card-container{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.card{
+    width: 280px;
+    height: 190px;
+    /* background: #FF5959; */
+    margin-left: 10px;
+    padding: 40px;
+}
+.card-img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.card-title{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.card-description{
+    color: #707070;
+}
+.card-food{
+    background: rgba(79, 157, 166, 0.1);
+}
+.card-shelter {
+    background: rgba(255, 89, 89, 0.1);
+}
+.card-education {
+    background: rgba(255, 244, 214, 1)
+}
+
+/* contribute */
+.contribute-container{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.contribute-img{
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+.contribute-div{
+    width: 450px;
+    justify-content: center;
+    align-self: center;
+}
+.contribute-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contribute-description{
+    color: #707070;
+    margin-bottom: 15px;
+}
+.contribute-top-margin{
+    margin-top: 30px;
+}
+.margin-top-high{
+    margin-top: 70px;
+}
+
+/* Update */
+.update{
+    margin-top: 130px;
+}
+.update-form-container{
+    margin-top: 50px;
+   
+}
+.update-form{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    height: 200px;
+    background: rgba(255, 244, 214, 1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.update-form-div{
+    display: flex;
+    margin: auto;
+    /* height: auto; */
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+.update-form-input{
+    height: 30px;
+        width: 400px;
+        border-radius: 5px;
+        background-color: #D9D9D9;
+        border: 0px solid;
+        padding: 10px;
+}
+
+.update-form-input:focus{
+    outline: #D9D9D9;
+}
+
+
+/* Footer */
+.footer{
+    margin-top: 130px;
+    height: 150px;
+    background-color: #0B0D17;
+}
+.footer-div{
+    padding: 50px;
+}
+
+
+.footer-title{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    /* margin-top: 100px !important; */
+    text-align: center;
+}
+.footer-description{
+    font-family: 'Lobster', cursive;
+    color: #D9DBE1;
+    text-align: center;
+    margin-top: 10px;
+}
